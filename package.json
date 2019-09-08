@@ -1,0 +1,21 @@
+{
+  "name": "tdd-node-api",
+  "version": "1.0.0",
+  "description": "First Node JS API using TDD.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sowens81/"
+  },
+  "keywords": [
+    "Node",
+    "JS",
+    "Api",
+    "TDD"
+  ],
+  "author": "Steve Owens",
+  "license": "ISC"
+}

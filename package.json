@@ -1,21 +1,30 @@
 {
-  "name": "tdd-node-api",
+  "name": "node-tdd",
   "version": "1.0.0",
-  "description": "First Node JS API using TDD.",
+  "description": "A nice project with a nice description",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sowens81/"
+    "url": "git+https://github.com/sowens81/tdd-node-api.git"
   },
-  "keywords": [
-    "Node",
-    "JS",
-    "Api",
-    "TDD"
-  ],
-  "author": "Steve Owens",
-  "license": "ISC"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sowens81/tdd-node-api/issues"
+  },
+  "homepage": "https://github.com/sowens81/tdd-node-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2",
+    "superagent": "^5.1.0"
+  }
 }
